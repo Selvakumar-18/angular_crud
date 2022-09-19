@@ -2,30 +2,52 @@
   "posts": [
     {
       "id": 2,
-      "firstName": "tester2",
-      "lastName": "2",
-      "email": "tester2@gmail.com",
-      "mobile": "9753124680",
-      "salary": "79,0000"
+      "firstName": "gh",
+      "lastName": "df",
+      "email": "df@gmail.com",
+      "mobile": "7894561230",
+      "salary": "9,98,000"
     },
     {
       "id": 3,
-      "firstName": "dev",
-      "lastName": "1",
-      "email": "dev@gmail.com",
-      "mobile": "4567893410",
-      "salary": "90,0000"
+      "firstName": "we",
+      "lastName": "re",
+      "email": "re@gmail.com",
+      "mobile": "8967452310",
+      "salary": "78,0000"
     },
     {
-      "id": 1,
-      "firstName": "tester",
-      "lastName": "1",
-      "email": "tester1@gmail.com",
-      "mobile": "9876543210",
-      "salary": "78,0000"
+      "id": 4,
+      "firstName": "Selva",
+      "lastName": "B",
+      "email": "selvab@gmail.com",
+      "mobile": "6383063926",
+      "salary": "25,000"
     }
   ],
-  "comments": [],
+  "SignupUsers": [
+    {
+      "fullname": "test",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "fullname": "tester1",
+      "mobile": "7894561230",
+      "email": "er@gmail.com",
+      "password": "er1234",
+      "id": 2
+    },
+    {
+      "fullname": "Selvakumarbalasubramani",
+      "mobile": "9842743573",
+      "email": "selvakumarbalasubramani4@gmail.com",
+      "password": "Selva@1718",
+      "id": 3
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

@@ -1,0 +1,27 @@
+.card{
+    border:none;
+    width: 500px;
+    padding:40px;
+    position: absolute;
+    top: 3%;
+    left:22.5%;
+    transform: translate(50%,50%);
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg,hsla(205,46%,30%,1)0%,hsla(260,29%,36%,1)100%);   
+    box-shadow: rgba(0, 0, 0, 15) 1.95px 1.95px 2.6px;
+}
+/* .form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+} */
+.card label  h1,h6{
+    color:white;
+}
+label{
+    color:white;
+}
+a{
+    color: white;
+    
+}

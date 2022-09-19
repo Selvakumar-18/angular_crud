@@ -1,0 +1,40 @@
+<!-- <p>signup works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>SignUp</h1>
+                    <h6>Register Yourself....</h6>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input formControlName="fullname" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Full Name">
+                        </div><br>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone Number</label>
+                            <input formControlName="mobile" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Phone Number">
+                        </div><br>
+
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        </div><br>
+
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div><br>
+
+                        <button type="submit" class="btn btn-primary">SignUp</button>
+                      
+                </form><br>
+
+                <a routerLink="/login">Existing User?  Click to Login</a>
+            </div>
+        </div>
+    </div>
+</div>
