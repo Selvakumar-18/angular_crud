@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "tester2",
+      "lastName": "2",
+      "email": "tester2@gmail.com",
+      "mobile": "9753124680",
+      "salary": "79,0000"
+    },
+    {
+      "id": 3,
+      "firstName": "dev",
+      "lastName": "1",
+      "email": "dev@gmail.com",
+      "mobile": "4567893410",
+      "salary": "90,0000"
+    },
+    {
+      "id": 1,
+      "firstName": "tester",
+      "lastName": "1",
+      "email": "tester1@gmail.com",
+      "mobile": "9876543210",
+      "salary": "78,0000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
